@@ -16,5 +16,6 @@ form.addEventListener("submit", e =>{
     }
 
     send ? warning.innerHTML = warning_text : warning.innerHTML = "Newss Letter Send"
+    email.value = '' && send;
    
 })
